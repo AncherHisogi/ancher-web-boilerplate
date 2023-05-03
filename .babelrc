@@ -1,0 +1,8 @@
+{
+  "presets": ["next/babel", ["@babel/preset-env", { "modules": false }]],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "inline-react-svg",
+    ["styled-components", { "ssr": true }]
+  ]
+}
